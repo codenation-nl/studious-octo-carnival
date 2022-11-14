@@ -20,4 +20,4 @@ spec:
         lifecycle:
           postStart:
             exec:
-              command: ["/bin/sh", "-c", "echo 'JENS' >> /var/www/html/index.html"]
+              command: ["/bin/sh", "-c", "echo 'JENS' >> /usr/share/nginx/html/index.html"]
